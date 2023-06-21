@@ -17,5 +17,6 @@
 + get the data and set them into state 
 + > .then(data =>{setProducts(data.result); setCount(data.count)})
 + use the useEffect dependancy with useEffect(()=>{},[currentPage, perPage])
++ replace the 10 with totalPage. [...Array(totalPage).keys()]
 
 ### That's all
