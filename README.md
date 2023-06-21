@@ -1,10 +1,10 @@
 # pagination-client side
 ## first use This State 
 ```
-+ [products]
-+ [count]
-+ [currentPage]
-+ [perPage]
+[products]
+[count]
+[currentPage]
+[perPage]
 ```
 + then implement the page btn with [...Array(10).keys()].map(k=> <btn>{k+1}</btn>
 + - [x] 10 will replace with totalPage after calculating the Match.ceil(count / perpage)
