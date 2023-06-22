@@ -38,7 +38,7 @@ const Home = () => {
                 <option value="20">20</option>
             </select>
             </div>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-10"> 
                 {
                     products.map(product => <Cards key={product._id} product={product}></Cards>) 
                 } 
