@@ -18,5 +18,5 @@
 + > .then(data =>{setProducts(data.result); setCount(data.count)})
 + use the useEffect dependancy with useEffect(()=>{},[currentPage, perPage])
 + replace the 10 with totalPage. [...Array(totalPage).keys()]
-
+> conditional rendaring classname={`btn btn-primary ${ k === currentPage ? 'btn-warning' : undefined} `}
 ### That's all
